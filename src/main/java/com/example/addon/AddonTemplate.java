@@ -34,7 +34,7 @@ public class AddonTemplate extends MeteorAddon {
             setSize(Math.max(renderer.textWidth(pos), renderer.textWidth(vel)), (renderer.textHeight() * 2) + 2);
 
             renderer.text(pos, x, y, Color.WHITE, true);
-            renderer.text(vel, x, y + renderer.textHeight() + 2, Color.WHITE, true);
+            renderer.text(vel, x, y + renderer.textHeight() + 2, Color.WHITE, true);.
         }
     }
 }
